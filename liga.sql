@@ -1,4 +1,4 @@
-#
+﻿#
 # DUMP FILE
 #
 # Database is ported from MS Access
@@ -252,8 +252,8 @@ INSERT INTO `ESTADIO` (`CodEstadio`, `Nombre`, `Localidad`, `Capacidad`) VALUES 
 DROP TABLE IF EXISTS `JUGADOR`;
 
 CREATE TABLE `JUGADOR` (
-  `ClubPrimera` VARCHAR(200) NOT NULL, 
-  `Dorsal` VARCHAR(200) NOT NULL, 
+  `ClubPrimera` VARCHAR(100) NOT NULL, 
+  `Dorsal` VARCHAR(100) NOT NULL, 
   `Nombre` VARCHAR(200), 
   `Apellido` VARCHAR(200), 
   INDEX (`Nombre`), 
@@ -736,7 +736,7 @@ INSERT INTO `JUGADOR` (`ClubPrimera`, `Dorsal`, `Nombre`, `Apellido`) VALUES ('S
 INSERT INTO `JUGADOR` (`ClubPrimera`, `Dorsal`, `Nombre`, `Apellido`) VALUES ('Sevilla F.C.', '11', 'Joaquín', 'Correa');
 INSERT INTO `JUGADOR` (`ClubPrimera`, `Dorsal`, `Nombre`, `Apellido`) VALUES ('Sevilla F.C.', '12', 'Johannes', 'Geis');
 INSERT INTO `JUGADOR` (`ClubPrimera`, `Dorsal`, `Nombre`, `Apellido`) VALUES ('Sevilla F.C.', '14', 'Guido', 'Pizarro');
-INSERT INTO `JUGADOR` (`ClubPrimera`, `Dorsal`, `Nombre`, `Apellido`) VALUES ('Sevilla F.C.', '15', 'Steven', 'N\'Zonzi');
+INSERT INTO `JUGADOR` (`ClubPrimera`, `Dorsal`, `Nombre`, `Apellido`) VALUES ('Sevilla F.C.', '15', 'Steven', 'NZonzi');
 INSERT INTO `JUGADOR` (`ClubPrimera`, `Dorsal`, `Nombre`, `Apellido`) VALUES ('Sevilla F.C.', '16', 'Jesús', 'Navas');
 INSERT INTO `JUGADOR` (`ClubPrimera`, `Dorsal`, `Nombre`, `Apellido`) VALUES ('Sevilla F.C.', '17', 'Pablo', 'Sarabia');
 INSERT INTO `JUGADOR` (`ClubPrimera`, `Dorsal`, `Nombre`, `Apellido`) VALUES ('Sevilla F.C.', '19', 'Ganso', NULL);
@@ -805,7 +805,7 @@ INSERT INTO `JUGADOR` (`ClubPrimera`, `Dorsal`, `Nombre`, `Apellido`) VALUES ('V
 DROP TABLE IF EXISTS `PRESIDENTE`;
 
 CREATE TABLE `PRESIDENTE` (
-  `Codigopresidente` VARCHAR(255) NOT NULL, 
+  `Codigopresidente` VARCHAR(100) NOT NULL, 
   `Nombre` VARCHAR(255), 
   `Apellido` VARCHAR(255), 
   `Edad` VARCHAR(255), 
@@ -870,8 +870,8 @@ INSERT INTO `PRESIDENTE DE LA LIGA` (`Año`, `Nombre`, `Apellido`) VALUES ('2017
 DROP TABLE IF EXISTS `TROFEO`;
 
 CREATE TABLE `TROFEO` (
-  `Año` VARCHAR(255) NOT NULL, 
-  `Club` VARCHAR(255) NOT NULL, 
+  `Año` VARCHAR(100) NOT NULL, 
+  `Club` VARCHAR(100) NOT NULL, 
   `Puesto` VARCHAR(255), 
   PRIMARY KEY (`Año`, `Club`)
 ) ENGINE=myisam DEFAULT CHARSET=utf8;
