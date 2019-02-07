@@ -4,7 +4,7 @@ mikel y ekaitz
 **Nuestro proyecto consiste en una pagina web de futbol donde encontraras un  juego que hay un portero y un jugador donde el jugador debe meter un gol al portero, informacion de equipos y un login.
 
 tenemos que tener una ruta \php\unieibar-asir2-web\proyecto\loginbueno\loginbueno\login2.
-![GitHub Logo](/Imágenes/Captura.png)
+
 Antes de nada tenemos twig instalado y  jquary insertado.
 
 
