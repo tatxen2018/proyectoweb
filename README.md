@@ -5,6 +5,7 @@ mikel y ekaitz
 
 tenemos que tener una ruta \php\unieibar-asir2-web\proyecto\loginbueno\loginbueno\login2.
 ![captura](https://user-images.githubusercontent.com/43339408/52412283-91e01980-2ade-11e9-8bd8-058d42015eea.PNG)
+
 Antes de nada tenemos twig instalado y  jquary insertado.
 
 
