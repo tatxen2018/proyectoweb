@@ -1,7 +1,9 @@
 ## proyectoweb
 mikel y ekaitz
 
-**Nuestro proyecto consiste en una pagina web de futbol donde encontraras un  juego que hay un portero y un jugador donde el jugador debe meter un gol al portero, informacion de equipos y un login.
+**Nuestro proyecto consiste en una pagina web de futbol donde encontraras un  juego que hay un portero y un jugador donde el jugador debe meter un gol al portero tambien hay una pagina principal y una clasificacion.
+
+Hay que coger el rar que se llama pagina.rar
 
 tenemos que tener una ruta \php\unieibar-asir2-web\proyecto\loginbueno\loginbueno\login2.
 ![captura](https://user-images.githubusercontent.com/43339408/52412283-91e01980-2ade-11e9-8bd8-058d42015eea.PNG)
@@ -11,8 +13,9 @@ Antes de nada tenemos twig instalado,jquary insertado y bootstrap.
 
 
 Carpetas que tenemos:
-**js:Los javascripts de la pagina web.Elm menu,etc.
-**fotos:Las imagenes que tenemos insertada en el fondo de la web, la mini galeria.
+**js:Los javascripts de la pagina web,El menu,etc.
+**fotos:Las imagenes que tenemos insertadas en la mini galeria.
+**img: son imagenes que tenemos insertadas en el fonde de los menus.
 **css:El diseño de la pagina web y del login.
 **vendor:El twig y donde renderiza el login en caso de que falle el inicio de sesion si un usuario que no esta en la base de datos.
 
