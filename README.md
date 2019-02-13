@@ -6,8 +6,15 @@ mikel y ekaitz
 tenemos que tener una ruta \php\unieibar-asir2-web\proyecto\loginbueno\loginbueno\login2.
 ![captura](https://user-images.githubusercontent.com/43339408/52412283-91e01980-2ade-11e9-8bd8-058d42015eea.PNG)
 
-Antes de nada tenemos twig instalado y  jquary insertado.
+Antes de nada tenemos twig instalado,jquary insertado y bootstrap.
 
+
+
+Carpetas que tenemos:
+**js:Los javascripts de la pagina web.Elm menu,etc.
+**fotos:Las imagenes que tenemos insertada en el fondo de la web, la mini galeria.
+**css:El diseño de la pagina web y del login.
+**vendor:El twig y donde renderiza el login en caso de que falle el inicio de sesion si un usuario que no esta en la base de datos.
 
 ##LOGIN
 
