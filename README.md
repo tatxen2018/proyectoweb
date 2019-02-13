@@ -1,5 +1,5 @@
 ## proyectoweb
-mikel y ekaitz
+Mikel y Ekaitz.
 
 **Nuestro proyecto consiste en una pagina web de futbol donde encontraras un  juego que hay un portero y un jugador donde el jugador debe meter un gol al portero tambien hay una pagina principal y una clasificacion.
 
@@ -29,7 +29,18 @@ Lo primero tenemos un login que se llama index.php que tiene un css implementado
 *Tambien tenemos un html que se llama insertusers.html que a la hora de registrarse llama a un php. Ese php lo que hace es insertar el usuario y la contraseña en la base de datos para entrar en la pagina principal.
 
 ##PAGINA PRINCIPAL
-lo primero encontraremos una pagina web donde dara la bienvenida al usuario inciado luego tendremos un menu hecho por javascript para redirigir a otras secciones de la web. Tambien podremos cerrar sesion y volver al login idex.php. La pagina tiene un boton hecho por javascript mostrara un video y una pequeña galeria que coge las fotos de una carpeta llamada fotos.
+lo primero encontraremos una pagina web donde dara la bienvenida al usuario inciado luego tendremos un menu hecho por javascript para redirigir a otras secciones de la web. Tambien podremos cerrar sesion y volver al login index.php. La pagina tiene un boton hecho por javascript mostrara un video y una pequeña galeria que coge las fotos de una carpeta llamada fotos.
 
 **La pagina principal.php coge un estilo del css en que pone la imagen que se muestra de fondo.
 
+
+##CLASIFICACION
+Tenemos una tabla hecha que es la clasificacion de la liga con sus puntos,partidos ganados,etc.
+La clasificacion no se actualiza cada semana.
+
+##JUEGO
+Tenemos un jugador y un portero donde el jugador debe meter gol al portero. Hay tres marcadores que se llaman goles,atajadas y fueras. Si el jugador mete gol al portero el marcador subira a 1 a 1. Si el portero ataja el balon que ha tirado el jugador el marcador de atajadas subira 1 a 1. Si el jugador chuta fuera el marcador de fueras subira 1 a 1.
+
+
+##CERRAR SESION
+Si el usuario se cansa de estar en la pagina y se quiere ir en el menu tenemos un apartado que se llama cerrar sesion donde el usuario cuando le da al boton vuelve al index.php.
